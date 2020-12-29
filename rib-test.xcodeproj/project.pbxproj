@@ -15,12 +15,12 @@
 		B1DD0EA8259AFDFE009A7476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1DD0EA6259AFDFE009A7476 /* LaunchScreen.storyboard */; };
 		B1DD0EB3259AFDFF009A7476 /* rib_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DD0EB2259AFDFF009A7476 /* rib_testTests.swift */; };
 		B1DD0EBE259AFDFF009A7476 /* rib_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DD0EBD259AFDFF009A7476 /* rib_testUITests.swift */; };
-		B1EF49C0259B64EA0059C316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF49BF259B64EA0059C316 /* AppDelegate.swift */; };
 		B1EF49DC259B65A10059C316 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF49DB259B65A10059C316 /* AppComponent.swift */; };
 		B1EF4A03259B6AA60059C316 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF49FF259B6AA60059C316 /* RootRouter.swift */; };
 		B1EF4A04259B6AA60059C316 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF4A00259B6AA60059C316 /* RootViewController.swift */; };
 		B1EF4A05259B6AA60059C316 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF4A01259B6AA60059C316 /* RootBuilder.swift */; };
 		B1EF4A06259B6AA60059C316 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF4A02259B6AA60059C316 /* RootInteractor.swift */; };
+		B1EF4A11259B75C50059C316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF4A10259B75C50059C316 /* AppDelegate.swift */; };
 		E07D34441E9164FC23B7F109 /* Pods_rib_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFBFFDEFD3C1E158CD19B41 /* Pods_rib_test.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,12 +61,12 @@
 		B1DD0EB9259AFDFF009A7476 /* rib-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rib-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DD0EBD259AFDFF009A7476 /* rib_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rib_testUITests.swift; sourceTree = "<group>"; };
 		B1DD0EBF259AFDFF009A7476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1EF49BF259B64EA0059C316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../RIBs/ios/tutorials/tutorial1/TicTacToe/AppStart/AppDelegate.swift; sourceTree = "<group>"; };
 		B1EF49DB259B65A10059C316 /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppComponent.swift; path = ../../RIBs/ios/tutorials/tutorial1/TicTacToe/AppStart/AppComponent.swift; sourceTree = "<group>"; };
 		B1EF49FF259B6AA60059C316 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 		B1EF4A00259B6AA60059C316 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		B1EF4A01259B6AA60059C316 /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
 		B1EF4A02259B6AA60059C316 /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		B1EF4A10259B75C50059C316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D051C84E46F876C4DA126759 /* Pods-rib-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rib-test.release.xcconfig"; path = "Target Support Files/Pods-rib-test/Pods-rib-test.release.xcconfig"; sourceTree = "<group>"; };
 		FDE2F952C5AFBE76D3821FD4 /* Pods-rib-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rib-test.debug.xcconfig"; path = "Target Support Files/Pods-rib-test/Pods-rib-test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,7 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				B1EF49AA259B64940059C316 /* RIBs */,
-				B1EF49BF259B64EA0059C316 /* AppDelegate.swift */,
+				B1EF4A10259B75C50059C316 /* AppDelegate.swift */,
 				B1EF49DB259B65A10059C316 /* AppComponent.swift */,
 				B1DD0E9D259AFDFE009A7476 /* SceneDelegate.swift */,
 				B1DD0E9F259AFDFE009A7476 /* ViewController.swift */,
@@ -436,11 +436,11 @@
 				B1DD0EA0259AFDFE009A7476 /* ViewController.swift in Sources */,
 				B1EF4A05259B6AA60059C316 /* RootBuilder.swift in Sources */,
 				B1EF4A03259B6AA60059C316 /* RootRouter.swift in Sources */,
+				B1EF4A11259B75C50059C316 /* AppDelegate.swift in Sources */,
 				B1EF4A04259B6AA60059C316 /* RootViewController.swift in Sources */,
 				B1EF49DC259B65A10059C316 /* AppComponent.swift in Sources */,
 				B1DD0E9E259AFDFE009A7476 /* SceneDelegate.swift in Sources */,
 				B1EF4A06259B6AA60059C316 /* RootInteractor.swift in Sources */,
-				B1EF49C0259B64EA0059C316 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
