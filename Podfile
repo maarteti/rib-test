@@ -6,7 +6,8 @@ target 'rib-test' do
   use_frameworks!
 
   # Pods for rib-test
-  pod 'RIBs', '~> 0.9'
+  #pod 'RIBs', '~> 0.9'
+  pod 'RIBs', :git => 'https://github.com/uber/RIBs', :commit => 'ffc489f00db785c8c0051678393f7aba0d52f1a4'
   
   target 'rib-testTests' do
     inherit! :search_paths
