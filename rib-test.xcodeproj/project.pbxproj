@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		3EF6D0A4D4E1D04DCF69A5DE /* Pods_rib_test_rib_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852089AE422D3519374B0D05 /* Pods_rib_test_rib_testUITests.framework */; };
 		9E8E41808CD8C8781C9D1CD9 /* Pods_rib_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1401F25C2A679709070646BD /* Pods_rib_testTests.framework */; };
+		B1213D33259C007700417A87 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1213D32259C007700417A87 /* AppComponent.swift */; };
 		B1DD0E9E259AFDFE009A7476 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DD0E9D259AFDFE009A7476 /* SceneDelegate.swift */; };
 		B1DD0EA0259AFDFE009A7476 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DD0E9F259AFDFE009A7476 /* ViewController.swift */; };
 		B1DD0EA5259AFDFE009A7476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1DD0EA4259AFDFE009A7476 /* Assets.xcassets */; };
 		B1DD0EA8259AFDFE009A7476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1DD0EA6259AFDFE009A7476 /* LaunchScreen.storyboard */; };
 		B1DD0EB3259AFDFF009A7476 /* rib_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DD0EB2259AFDFF009A7476 /* rib_testTests.swift */; };
 		B1DD0EBE259AFDFF009A7476 /* rib_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DD0EBD259AFDFF009A7476 /* rib_testUITests.swift */; };
-		B1EF49DC259B65A10059C316 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF49DB259B65A10059C316 /* AppComponent.swift */; };
 		B1EF4A03259B6AA60059C316 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF49FF259B6AA60059C316 /* RootRouter.swift */; };
 		B1EF4A04259B6AA60059C316 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF4A00259B6AA60059C316 /* RootViewController.swift */; };
 		B1EF4A05259B6AA60059C316 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF4A01259B6AA60059C316 /* RootBuilder.swift */; };
@@ -49,6 +49,7 @@
 		7D00F671E3F9632BB21062DE /* Pods-rib-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rib-testTests.debug.xcconfig"; path = "Target Support Files/Pods-rib-testTests/Pods-rib-testTests.debug.xcconfig"; sourceTree = "<group>"; };
 		852089AE422D3519374B0D05 /* Pods_rib_test_rib_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rib_test_rib_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87283D7D47CF2D4BB9693479 /* Pods-rib-test-rib-testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rib-test-rib-testUITests.debug.xcconfig"; path = "Target Support Files/Pods-rib-test-rib-testUITests/Pods-rib-test-rib-testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1213D32259C007700417A87 /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
 		B1DD0E98259AFDFE009A7476 /* rib-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rib-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DD0E9D259AFDFE009A7476 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B1DD0E9F259AFDFE009A7476 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +62,6 @@
 		B1DD0EB9259AFDFF009A7476 /* rib-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rib-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DD0EBD259AFDFF009A7476 /* rib_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rib_testUITests.swift; sourceTree = "<group>"; };
 		B1DD0EBF259AFDFF009A7476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1EF49DB259B65A10059C316 /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppComponent.swift; path = ../../RIBs/ios/tutorials/tutorial1/TicTacToe/AppStart/AppComponent.swift; sourceTree = "<group>"; };
 		B1EF49FF259B6AA60059C316 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 		B1EF4A00259B6AA60059C316 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		B1EF4A01259B6AA60059C316 /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 			children = (
 				B1EF49AA259B64940059C316 /* RIBs */,
 				B1EF4A10259B75C50059C316 /* AppDelegate.swift */,
-				B1EF49DB259B65A10059C316 /* AppComponent.swift */,
+				B1213D32259C007700417A87 /* AppComponent.swift */,
 				B1DD0E9D259AFDFE009A7476 /* SceneDelegate.swift */,
 				B1DD0E9F259AFDFE009A7476 /* ViewController.swift */,
 				B1DD0EA4259AFDFE009A7476 /* Assets.xcassets */,
@@ -434,11 +434,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1DD0EA0259AFDFE009A7476 /* ViewController.swift in Sources */,
+				B1213D33259C007700417A87 /* AppComponent.swift in Sources */,
 				B1EF4A05259B6AA60059C316 /* RootBuilder.swift in Sources */,
 				B1EF4A03259B6AA60059C316 /* RootRouter.swift in Sources */,
 				B1EF4A11259B75C50059C316 /* AppDelegate.swift in Sources */,
 				B1EF4A04259B6AA60059C316 /* RootViewController.swift in Sources */,
-				B1EF49DC259B65A10059C316 /* AppComponent.swift in Sources */,
 				B1DD0E9E259AFDFE009A7476 /* SceneDelegate.swift in Sources */,
 				B1EF4A06259B6AA60059C316 /* RootInteractor.swift in Sources */,
 			);
