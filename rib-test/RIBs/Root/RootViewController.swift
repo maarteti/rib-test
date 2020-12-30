@@ -22,4 +22,8 @@ final class RootViewController: UIViewController, RootPresentable, RootViewContr
     override func viewDidLoad() {
         self.view.backgroundColor = .yellow
     }
+    
+    func present(viewControllable: ViewControllable) {
+        present(viewControllable.uiviewController, animated: true, completion: nil)
+    }
 }
