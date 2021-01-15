@@ -28,8 +28,8 @@ final class RootViewController: UIViewController, RootPresentable, RootViewContr
     }
     
     func dismiss(viewControllable: ViewControllable) {
-        if presentingViewController == viewControllable.uiviewController {
-            dismiss(animated: false, completion: nil)
+        if presentedViewController === viewControllable.uiviewController {
+            dismiss(animated: true, completion: nil)
         }
     }
 }
