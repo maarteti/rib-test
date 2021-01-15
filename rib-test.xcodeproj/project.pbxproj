@@ -156,7 +156,6 @@
 		B1DD0E9A259AFDFE009A7476 /* rib-test */ = {
 			isa = PBXGroup;
 			children = (
-				B1213D43259C01BE00417A87 /* LoggedOut */,
 				B1EF49AA259B64940059C316 /* RIBs */,
 				B1EF4A10259B75C50059C316 /* AppDelegate.swift */,
 				B1213D32259C007700417A87 /* AppComponent.swift */,
@@ -190,6 +189,7 @@
 		B1EF49AA259B64940059C316 /* RIBs */ = {
 			isa = PBXGroup;
 			children = (
+				B1213D43259C01BE00417A87 /* LoggedOut */,
 				B1EF49FE259B6A950059C316 /* Root */,
 			);
 			path = RIBs;
