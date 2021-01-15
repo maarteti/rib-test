@@ -8,6 +8,8 @@ target 'rib-test' do
   # Pods for rib-test
   #pod 'RIBs', '~> 0.9'
   pod 'RIBs', :git => 'https://github.com/uber/RIBs', :commit => 'ffc489f00db785c8c0051678393f7aba0d52f1a4'
+  pod 'SnapKit', '~> 5.0.0'
+  pod 'RxCocoa', '~> 5.1.0'
   
   target 'rib-testTests' do
     inherit! :search_paths

@@ -19,6 +19,7 @@ protocol LoggedOutPresentable: Presentable {
 
 protocol LoggedOutListener: class {
     // TODO: Declare methods the interactor can invoke to communicate with other RIBs.
+    func routeToTodo()
 }
 
 final class LoggedOutInteractor: PresentableInteractor<LoggedOutPresentable>, LoggedOutInteractable, LoggedOutPresentableListener {
@@ -41,5 +42,11 @@ final class LoggedOutInteractor: PresentableInteractor<LoggedOutPresentable>, Lo
     override func willResignActive() {
         super.willResignActive()
         // TODO: Pause any business logic.
+    }
+    
+    func login() {
+        // 가정) 어쩌구 저쩌구 로그인 처리가 다 됐다고 치면
+        // TODO로 이동하자.
+        listener?.routeToTodo()
     }
 }
